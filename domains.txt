@@ -333,3 +333,4 @@ boafish.aternos.host
 hoki.aternos.host
 flagbenny.aternos.host
 clingfish.aternos.host
+squid.aternos.host
