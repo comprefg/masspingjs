@@ -57,8 +57,10 @@ async function pingServer(server,port) {
 
 
   for (const subdomain of domains) {
-  for (let i = 33710; i < 33712; i++) {
-    setTimeout(() => pingServer(subdomain,i), 0);
-  }
+    if(subdomain!=""){
+      for (let i = 33710; i < 33712; i++) {
+        setTimeout(() => pingServer(subdomain,i), 0);
+      }
+    }
 }
 
